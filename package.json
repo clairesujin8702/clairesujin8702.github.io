@@ -1,7 +1,7 @@
 {
-  "name": "flaminGo",
+  "name": "Sujin_Kim_Portfolio",
   "version": "1.0.0",
-  "description": "Property Management Solution",
+  "description": "Claire Sujin Kim",
   "main": "server/index.js",
   "scripts": {
     "test": "jest",
@@ -15,11 +15,14 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
     "eslint": "^7.17.0",
     "eslint-plugin-react": "^7.22.0",
     "express": "^4.17.1",

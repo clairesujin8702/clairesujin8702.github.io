@@ -1,10 +1,16 @@
 ## NPM ##
 node_modules/
 
+## Compiled files ##
+client/dist/*
+
 ## API keys ##
 env/config.js
 
 ## ETC ##
+!client/dist/index.html
+!client/dist/styles/
+package-lock.json
 .cache/
 *.log
 

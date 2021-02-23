@@ -1,7 +1,2 @@
-exports.frontDesk = require('./frontDesk/frontDesk.js');
-
-exports.maintenance = require('./maintenance/maintenance.js');
-
-exports.management = require('./management/management.js');
-
-exports.admin = require('./admin/admin.js');
+exports.post = require('./post/post.js');
+exports.project = require('./project/project.js');

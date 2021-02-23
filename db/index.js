@@ -1,5 +1,5 @@
 const mongoose = require( 'mongoose' );
-const database = 'flaminGo';
+const database = 'portfolio';
 
 if ( process.env.MONGO_URL ) {
   mongoose.connect( process.env.MONGO_URL );

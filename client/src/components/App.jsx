@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        HrNYC PROJECT
+        Sujin Kim
         <h1> {this.props.projectName}  </h1>
       </div>
     );
