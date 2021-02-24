@@ -6,13 +6,13 @@ const projectRouter = require('./routers/projectRouter');
 const app = express();
 app.use( express.json() );
 app.use( express.urlencoded( { extended: true } ));
-app.use(express.static(path.join(__dirname, 'build')));
+app.use( express.static( path.join( __dirname, './../client/dist' )));
 
 app.use('/post', postRouter);
 app.use('/project', projectRouter);
 
 app.get('/', (req, res)=>{
-  res.sendFile(path.join( __dirname, build, './../client/dist/index.html' ));
+  res.json( 'Say hello to Sujin :)' );
 });
 
 module.exports = app;

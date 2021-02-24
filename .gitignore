@@ -9,7 +9,9 @@ env/config.js
 
 ## ETC ##
 !client/dist/index.html
-!client/dist/styles/
+!client/dist/assets/
+!client/dist/images/
+!client/dist/js/
 package-lock.json
 .cache/
 *.log
