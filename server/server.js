@@ -6,7 +6,7 @@ const projectRouter = require('./routers/projectRouter');
 const app = express();
 app.use( express.json() );
 app.use( express.urlencoded( { extended: true } ));
-app.use( express.static( path.join( __dirname, './../client/dist' )));
+app.use( express.static( path.join( __dirname, './../index.html' )));
 
 app.use('/post', postRouter);
 app.use('/project', projectRouter);
