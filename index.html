@@ -9,7 +9,6 @@
 </head>
 
 <body class="is-preload">
-
   <!-- Header -->
   <header id="header">
     <div class="inner">
@@ -17,22 +16,25 @@
       <h1><strong>I am Sujin Kim</strong>,<br /> a Full-stack software Engineer<br /></h1>
         <br />
         <br />
+        <a href="#one">Projects </a><br>
         <a href="#blog">See Sujin's Blogs </a>
         <ul class="icons">
           <li><a href="#blog" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
         </ul>
     </div>
   </header>
-
   <!-- Main -->
   <div id="main">
-
-    <!-- One -->
     <section id="one">
+      <div id="app"></div>
+      <hr>
+    <!-- Two -->
+    <h2>Projects</h2>
+    <section id="two">
       <div class="col-12"><span class="image fit"><img src="images/BlueOcean/FlaminGo.gif" alt="Hotel management app" /></span></div>
       <header class="major">
-        <h2> Hotel Flamingo <br />
-          Property management system</h2>
+        <h3> Hotel Flamingo <br />
+          Property management system</h3>
       </header>
       <p>
         Handled tasks for front desk, housekeeping, management, and system administrator to run business.<br />
@@ -44,15 +46,11 @@
       <!-- <ul class="actions">
         <li><a href="#" class="button">Check it out</a></li>
       </ul> -->
-    </section>
-
-    <!-- Two -->
-    <section id="two">
-      <h2>Recent Work</h2>
+     <hr>
       <div class="row">
         <article class="col-6 col-12-xsmall work-item">
           <a href="images/fec/fec_relatedItems.png" class="image fit thumb"><img src="images/fec/fec1.gif" alt="retail website" /></a>
-          <h3>PROJECT CATWALK _ Retail Website</h3>
+          <h3>CATWALK _ Retail Website</h3>
           <p>
             Modernized interactive E-commerce application rendering information from a headless API. <br />
             • Utilized JavaScript, React, Redux, Babel, npm, Axios, Webpack and deployed with AWS EC2.<br />
@@ -99,21 +97,17 @@
           </p>
         </article>
       </div>
-      <ul class="actions">
-        <li><a href="#one" class="button">Full Portfolio</a></li>
-      </ul>
     </section>
-
+</section>
     <!-- Three -->
     <section id="three">
       <h2>Contact Info.</h2>
-      <p>Should you need further information please feel free to contact me</p>
       <div class="row">
         <div class="col-4 col-12-small">
           <ul class="labeled-icons">
             <li>
               <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-              SunnySide, NY 11104, United States
+              New York, United States
             </li>
             <li>
               <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
@@ -143,18 +137,123 @@
         <li><a href="mailto:kimsujin8702@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
       </ul>
       <ul class="copyright">
-        <li>&copy; Sujin Kim 2021</li>
+        <li>&copy; 2021 Claire Sujin Kim</li>
         <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
       </ul>
     </div>
   </footer>
 
+  <!-- Blog -->
   <section id="blog">
-    <h3>Blog Story</h3>
-  </section>
+      <header class="major">
+        <h2>Blog Story</h2>
+        <h3>Hot Topic</h3>
+      </header>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <section class="box">
+            <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+            <header>
+              <h3>Python</h3>
+              <p>Posted 45 minutes ago</p>
+            </header>
+            <p>Tech related content 1 <br>
+            details
+            </p>
+            <a href="#"> Read more</a>
+            <br /><br />
+            <footer>
+              <ul class="actions">
+                <li><a href="#" class="button alt icon solid fa-comment">20 comments</a></li>
+              </ul>
+            </footer>
+          </section>
+        </div>
+        <div class="col-6 col-12-small">
+          <section class="box">
+            <a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+            <header>
+              <h3>Javascript</h3>
+              <p>Posted 45 minutes ago</p>
+            </header>
+            <p>Tech related content 2 <br>
+              details
+            </p>
+            <a href="#"> Read More</a>
+            <br /><br />
+            <footer>
+              <ul class="actions">
+                <li><a href="#" class="button alt icon solid fa-comment">33 comments</a></li>
+              </ul>
+            </footer>
+          </section>
+        </div>
+      </div>
+    <hr>
 
-  <section>
-    <h4>Posting blog</h4>
+     <!-- Blog list -->
+      <div>
+        <h3>Blog list</h3>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Blog One</td>
+                <td>about something tech</td>
+                <td>Tech</td>
+              </tr>
+              <tr>
+                <td>Blog Two</td>
+                <td>about climbing</td>
+                <td>Climbing</td>
+              </tr>
+              <tr>
+                <td>Blog Three</td>
+                <td>about something tech</td>
+                <td>Tech</td>
+              </tr>
+              <tr>
+                <td>Blog Four</td>
+                <td>about something tech</td>
+                <td>Tech</td>
+              </tr>
+              <tr>
+                <td>Blog Five</td>
+                <td>about van life</td>
+                <td>Travel</td>
+              </tr>
+            </tbody>
+            <!-- <tfoot>
+              <tr>
+                <td colspan="2"></td>
+                <td>100.00</td>
+              </tr>
+            </tfoot> -->
+          </table>
+        </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+          <div class="pages">
+            <a href="#" ><i class="fas fa-angle-left"></i> </a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <span>&hellip;</span>
+            <a href="#">20</a>
+            <a href="#"><i class="fas fa-angle-right"></i></a>
+          </div>
+      </div>
+    <hr>
+    <h3>Posting blog</h3>
     <form method="post" action="#">
       <div class="row gtr-uniform gtr-50">
         <div class="col-12">
@@ -189,13 +288,13 @@
   </section>
 
   <!-- Scripts -->
+  <script src="bundle.js"></script>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/jquery.poptrox.min.js"></script>
   <script src="assets/js/browser.min.js"></script>
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
